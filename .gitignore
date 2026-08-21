@@ -1,0 +1,36 @@
+## .NET build artifacts
+bin/
+obj/
+
+## Secrets & local configuration — NEVER commit these
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Staging.json
+*.env
+.env*
+secrets.json
+
+## Visual Studio / JetBrains IDE files
+*.user
+*.suo
+.vs/
+.vscode/
+.idea/
+*.swp
+*.sln.docstates
+
+## OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+## NuGet
+*.nupkg
+.nuget/
+
+## Logs
+*.log
+logs/
+
+## Markdown — still under editing
+*.md
